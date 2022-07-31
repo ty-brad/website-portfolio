@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://www.artstation.com/tybradley">Artstation</a>
+          <a class="navbar-brand" href="(https://www.artstation.com/tybradley)">Artstation</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -116,3 +116,9 @@
   </body>
 
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
