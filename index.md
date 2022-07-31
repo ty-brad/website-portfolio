@@ -1,37 +1,124 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-You can use the [editor on GitHub](https://github.com/ty-brad/website-portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <title>Ty Bradley Portfolio</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-### Markdown
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+  </head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <body>
 
-```markdown
-Syntax highlighted code block
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
-- Bulleted
-- List
+    <div class="container">
 
-1. Numbered
-2. List
+      <div class="row">
 
-**Bold** and _Italic_ and `Code` text
+        <div class="col-lg-12">
+          <h1 class="page-header"> Ty Bradley <small> 3D Generalist </small></h1>
+        </div>
 
-[Link](url) and ![Image](src)
-```
+      </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+      <div class="row">
 
-### Jekyll Themes
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">PROJECT 1</a></h3>
+          <p>PROJECT NAME 1 DESCRIPTION</p>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ty-brad/website-portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">PROJECT 2</a></h3>
+          <p>PROJECT NAME 2 DESCRIPTION</p>
+        </div>
 
-### Support or Contact
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">PROJECT 3</a></h3>
+          <p>PROJECT NAME 3 DESCRIPTION</p>
+        </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+      </div>
+
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>        
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+          </div>
+        </div>
+      </footer>
+      
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
+  </body>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
